@@ -1,0 +1,22 @@
+{
+  "name": "dota-watch",
+  "version": "1.0.0",
+  "description": "fetch live and upcoming dota games with stream links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "c00kie17",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "gosugamers-api": "^0.1.2",
+    "json-bigint": "^0.3.0",
+    "loadash": "^1.0.0",
+    "moment": "^2.22.2",
+    "request": "^2.87.0",
+    "request-promise": "^4.2.2",
+    "vdfjs": "^2.0.3",
+    "winston": "^3.0.0"
+  }
+}
