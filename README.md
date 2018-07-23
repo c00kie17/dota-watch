@@ -16,6 +16,10 @@ Fetch live and upcoming dota games with stream links
 
 `npm install --save dota-watch`
 
+## Examples
+The `examples` directory contains an example file on how to interact with the module.
+
+## API
 
 ## Contributing
 
