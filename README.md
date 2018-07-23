@@ -1,15 +1,15 @@
 # dota-watch
 
 ![npm](https://img.shields.io/npm/v/dota-watch.svg) ![license](https://img.shields.io/npm/l/dota-watch.svg) ![github-issues](https://img.shields.io/github/issues/c00kie17/dota-watch.svg)  ![Circle CI build status](https://circleci.com/gh/c00kie17/dota-watch.svg?style=svg)
+![stars](https://img.shields.io/github/stars/c00kie17/dota-watch.svg)
 
-fetch live and upcoming dota games with stream links
 
 ![nodei.co](https://nodei.co/npm/dota-watch.png?downloads=true&downloadRank=true&stars=true)
 
 
-![stars](https://img.shields.io/github/stars/c00kie17/dota-watch.svg)
 
-## Features
+
+Fetch live and upcoming dota games with stream links
 
 
 ## Install
