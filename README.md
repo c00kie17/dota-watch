@@ -22,13 +22,13 @@ The `examples` directory contains an example file on how to interact with the mo
 # API
 all api calls except the constructor are promises. 
 
--[new dotaWatch](#new_dotaWatch)
--[.initialize()](#initialize_func)
--[_Non-Initialized functions_](#non_initialized)
-  -[.getProPlayers()](proPlayers")
-  -[.getHeros()](heros")
-  -[.getEconItem()](econ")
-  -[.getLeagues()](getLeagues")
+- **[new dotaWatch]**(#new_dotaWatch)
+- **[.initialize()]**(#initialize_func)
+- **[_Non-Initialized functions_]**(#non_initialized)
+  - **[.getProPlayers()]**(proPlayers")
+  - **[.getHeros()]**(heros")
+  - **[.getEconItem()]**(econ")
+  - **[.getLeagues()]**(getLeagues")
  -[_Initialized functions_](#initialized) 
     -[.getUpcomingGames()](upcoming")
     -[.getLivePubGames()](live_pub")
