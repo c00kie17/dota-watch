@@ -6,14 +6,8 @@ fetch live and upcoming dota games with stream links
 
 ![nodei.co](https://nodei.co/npm/dota-watch.png?downloads=true&downloadRank=true&stars=true)
 
-![travis-status](https://img.shields.io/travis/c00kie17/dota-watch.svg)
+
 ![stars](https://img.shields.io/github/stars/c00kie17/dota-watch.svg)
-![forks](https://img.shields.io/github/forks/c00kie17/dota-watch.svg)
-
-![forks](https://img.shields.io/github/forks/c00kie17/dota-watch.svg)
-
-![](https://david-dm.org/c00kie17/dota-watch/status.svg)
-![](https://david-dm.org/c00kie17/dota-watch/dev-status.svg)
 
 ## Features
 
