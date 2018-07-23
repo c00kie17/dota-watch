@@ -21,6 +21,19 @@ The `examples` directory contains an example file on how to interact with the mo
 
 # API
 
+* [new dotaWatch](#new_dotaWatch)
+* [.initialize()](#initialize_func)
+   *[Non-Initialized functions](#non_initialized)
+       *[.getProPlayers()](proPlayers")
+       *[.getHeros()](heros")
+       *[.getEconItem()](econ")
+       *[.getLeagues()](getLeagues")
+   *[Initialized functions](#initialized) 
+       *[.getUpcomingGames()](upcoming")
+       *[.getLivePubGames()](live_pub")
+       *[.getLiveLeagueGames()](live_league")
+       *[.getScoreboard()]("scoreboard")
+
 all api calls except the constructor and promises. 
 
 <a name="new_dotaWatch"></a>
@@ -33,7 +46,7 @@ The dotaWatch client object is created
 | twitchKey | <code>string</code> | Your twitch api key ,you can find more info about it <a href= "https://dev.twitch.tv">here</a>  |
 
 <a name="initialize_func"></a>
-#### initialize()
+#### .initialize()
 used to initialized the dotaWatch client, all function and divided into two parts as [Initialized](#initialized) and [Non-Initialized](#non_initialized) functions
 
 <a name="non_initialized"></a>
@@ -41,26 +54,58 @@ used to initialized the dotaWatch client, all function and divided into two part
 these function can be used without initilization of the dotaWatch client
 
 <a name="proPlayers"></a>
-#### getProPlayers()
+#### .getProPlayers()
 get a list of all the pro players
 
 <a name="heros"></a>
-#### getHeros()
+#### .getHeros()
 gets a list of all the dota2 heros
 
 <a name="econ"></a>
-#### getEconItem()
+#### .getEconItem()
 gets the econ item file containing all items available in the dota2 client. This API calls takes some time to complete as the data is huge. consider saving the data locally instead of calling this again.
 
 <a name="leagues"></a>
-#### getLeagues()
+#### .getLeagues()
 gets a list of all the Pro Leagues in dota2
 
 <a name="initialized"></a>
-##Initialized functions
+## Initialized functions
 these function can be only used after initilization of the dotaWatch client has returned successfully 
 
+<a name="upcoming"></a>
+#### .getUpcomingGames(maxDate)
+gets upcoming Pro Dota2 games
 
+| Param | Type | Description |
+| --- | --- | --- |
+| maxDate | <code>int</code> | epoch timestamp in seconds, the max date till you want upcoming games |
+
+
+<a name="live_pub"></a>
+#### .getLivePubGames(minSpectators)
+get live Pub games
+
+| Param | Type | Description |
+| --- | --- | --- |
+| minSpectators | <code>int</code> | minimum number of spectators a game should have to make it in the list |
+
+
+<a name="live_league"></a>
+#### .getLiveLeagueGames(minSpectators)
+get live League games
+
+| Param | Type | Description |
+| --- | --- | --- |
+| minSpectators | <code>int</code> | minimum number of spectators a game should have to make it in the list |
+
+<a name="scoreboard"></a>
+#### .getScoreboard(serverSteamId)
+gets the scoreboard of a specified game
+
+| Param | Type | Description |
+| --- | --- | --- |
+| serverSteamId | <code>string</code> | the server steam id of the game you want the scoreboard |
 
 
 
