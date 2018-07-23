@@ -13,8 +13,7 @@ const twitchHandler = require("./handlers/twitch")
 const leagueHandler = require("./handlers/league")
 const heroHandler = require("./handlers/hero")
 const matchHandler = require("./handlers/match")
-//remove
-const util = require("util")
+
 
 
 module.exports = class dota {
