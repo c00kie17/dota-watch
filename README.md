@@ -48,7 +48,7 @@ The dotaWatch client object is created
 ```javascript
 var dotaWatch = new dotawatch("steamkey","twitchkey")
 ```
-
+***
 <a name="initialize_func"></a>
 #### .initialize()
 used to initialized the dotaWatch client, all function and divided into two parts as [Initialized](#initialized) and [Non-Initialized](#non_initialized) functions
@@ -58,7 +58,7 @@ dotaWatch.initialize().then((res) => {
   ...
 })
 ```
-
+***
 <a name="non_initialized"></a>
 ## Non-Initialized functions
 these function can be used without initilization of the dotaWatch client
@@ -72,7 +72,7 @@ dotaWatch.getProPlayers().then((res) => {
   ...
 })
 ```
-
+***
 <a name="heros"></a>
 #### .getHeros()
 gets a list of all the dota2 heros
@@ -82,7 +82,7 @@ dotaWatch.getHeros().then((res) => {
   ...
 })
 ```
-
+***
 <a name="econ"></a>
 #### .getEconItem()
 gets the econ item file containing all items available in the dota2 client. This API calls takes some time to complete as the data is huge. consider saving the data locally instead of calling this again.
@@ -92,7 +92,7 @@ dotaWatch.getEconItem().then((res) => {
   ...
 })
 ```
-
+***
 <a name="leagues"></a>
 #### .getLeagues()
 gets a list of all the Pro Leagues in dota2
@@ -102,7 +102,6 @@ dotaWatch.getLeagues().then((res) => {
   ...
 })
 ```
-
 <a name="initialized"></a>
 ## Initialized functions
 these function can be only used after initilization of the dotaWatch client has returned successfully 
@@ -120,7 +119,7 @@ dotaWatch.getUpcomingGames(1563353353).then((res) => {
   ...
 })
 ```
-
+***
 
 <a name="live_pub"></a>
 #### .getLivePubGames(minSpectators)
@@ -136,7 +135,7 @@ dotaWatch.getLivePubGames(0).then((res) => {
   ...
 })
 ```
-
+***
 <a name="live_league"></a>
 #### .getLiveLeagueGames(minSpectators)
 get live League games
@@ -150,7 +149,7 @@ dotaWatch.getLiveLeagueGames(0).then((res) => {
   ...
 })
 ```
-
+***
 <a name="scoreboard"></a>
 #### .getScoreboard(serverSteamId)
 gets the scoreboard of a specified game
@@ -164,7 +163,6 @@ dotaWatch.getScoreboard("serverSteamId value").then((res) => {
   ...
 })
 ```
-
 
 
 
