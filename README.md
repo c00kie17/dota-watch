@@ -102,6 +102,7 @@ dotaWatch.getLeagues().then((res) => {
   ...
 })
 ```
+***
 <a name="initialized"></a>
 ## Initialized functions
 these function can be only used after initilization of the dotaWatch client has returned successfully 
@@ -163,7 +164,7 @@ dotaWatch.getScoreboard("serverSteamId value").then((res) => {
   ...
 })
 ```
-
+***
 
 
 ## Contributing
