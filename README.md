@@ -19,7 +19,19 @@ Fetch live and upcoming dota games with stream links
 ## Examples
 The `examples` directory contains an example file on how to interact with the module.
 
-## API
+# API
+<a name="new_dotaWatch"></a>
+#### new dotaWatch(steamKey,twitchKey)
+The dotaWatch client object is created
+
+| Param | Type | Description |
+| --- | --- | --- |
+| steamKey | <code>string</code> | Your steam api key ,you can find more info about it <a href= "https://steamcommunity.com/login/home/?goto=%2Fdev%2Fapikey">here</a> |
+| twitchKey | <code>string</code> | Your twitch api key ,you can find more info about it <a href= "https://dev.twitch.tv">here</a>  |
+
+
+
+
 
 ## Contributing
 
