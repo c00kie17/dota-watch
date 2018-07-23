@@ -18,5 +18,17 @@
     "request-promise": "^4.2.2",
     "vdfjs": "^2.0.3",
     "winston": "^3.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c00kie17/dota-watch.git"
+  },
+  "keywords": [
+    "dota2"
+  ],
+  "bugs": {
+    "url": "https://github.com/c00kie17/dota-watch/issues"
+  },
+  "homepage": "https://github.com/c00kie17/dota-watch#readme"
 }
