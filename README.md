@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/dota-watch.svg) ![license](https://img.shields.io/npm/l/dota-watch.svg) ![github-issues](https://img.shields.io/github/issues/c00kie17/dota-watch.svg)  ![Circle CI build status](https://circleci.com/gh/c00kie17/dota-watch.svg?style=svg)
 ![stars](https://img.shields.io/github/stars/c00kie17/dota-watch.svg)
-
+[![Build Status](https://img.shields.io/travis/c00kie17/dota-watch.svg)](https://travis-ci.org/c00kie17/dota-watch.svg "View this project's build information")
 
 ![nodei.co](https://nodei.co/npm/dota-watch.png?downloads=true&downloadRank=true&stars=true)
 
